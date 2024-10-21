@@ -13,7 +13,7 @@ function App() {
               src="/plode.html"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99.5vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -31,7 +31,7 @@ function App() {
               src="/scratch_build/index.html"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -49,7 +49,7 @@ function App() {
               src="/scratch_build/index.html?pc1.0"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -67,7 +67,7 @@ function App() {
               src="/scratch_build/index.html?zing0.1"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -85,7 +85,7 @@ function App() {
               src="/scratch_build/index.html?zing1.0"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -103,7 +103,7 @@ function App() {
               src="/scratch_build/index.html?zing1.0s3"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -121,7 +121,7 @@ function App() {
               src="/scratch_build/index.html?hexapod"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -139,7 +139,7 @@ function App() {
               src="/scratch_build/index.html?hexapod1.0s3"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -157,7 +157,7 @@ function App() {
               src="/scratch_build/index.html?roboki"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -175,7 +175,7 @@ function App() {
               src="/scratch_build/index.html?roboki"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
@@ -193,7 +193,7 @@ function App() {
               src="/micropython_build/index.html"
               style={{
                 width: "100%",
-                height: "97.8vh",
+                height: "99vh",
                 border: 0,
                 overflow: "hidden",
                 overflowClipMargin: "border-box",
