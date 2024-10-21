@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Python Coding</title>
+        <link rel="stylesheet" href="./webrepl.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css"
+        />
+        <link rel="icon" href="./images/plode.png" type="image/x-icon" />
+    </head>
+    <body>
+        <div>
+            <div class="headerContainer">
+                <img
+                    style="width: 14%"
+                    src="./images/selectbar.png"
+                    alt="selectbar"
+                    draggable="false"
+                />
+                <p class="childClass_1">Python Coding</p>
+                <div class="childClass_2">
+                    <label for="file-input">
+                        <img
+                            class="img"
+                            src="./images/file.png"
+                            style="cursor: pointer"
+                            draggable="false"
+                        />
+                    </label>
+                    <input
+                        id="file-input"
+                        type="file"
+                        accept=".py"
+                        hidden
+                        onchange="inputFile(event)"
+                    />
+                    <img
+                        class="img"
+                        src="./images/save.png"
+                        alt="save"
+                        onclick="save()"
+                        draggable="false"
+                    />
+                    <img
+                        class="img"
+                        src="./images/help.png"
+                        style="cursor: pointer"
+                        alt="help"
+                        onclick="help()"
+                        draggable="false"
+                    />
+                    <img
+                        style="height: 55px"
+                        id="wifiOff"
+                        src="./images/wifiOff.png"
+                        alt="wifi"
+                        draggable="false"
+                    />
+                    <img
+                        id="wifiOn"
+                        style="display: none; height: 55px"
+                        src="./images/wifiOn.png"
+                        alt="wifi"
+                        draggable="false"
+                    />
+                </div>
+            </div>
+            <div id="popup" class="popup">
+                <img
+                    onclick="plusSlides(-1)"
+                    class="leftArrow"
+                    src="./images/left.png"
+                    alt="helpScreen"
+                    draggable="false"
+                />
+                <img
+                    onclick="closePopup()"
+                    class="closePopup"
+                    src="./images/close.png"
+                    alt="close"
+                    draggable="false"
+                />
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <img
+                            class="helpscreen"
+                            src="./images/helpScreen1.png"
+                            alt="helpScreen"
+                            draggable="false"
+                        />
+                        <p
+                            class="text"
+                            style="left: 55%; top: 22%; text-align: center"
+                        >
+                            Open your python program files from device
+                        </p>
+                        <p
+                            class="text"
+                            style="left: 66%; top: 33%; text-align: center"
+                        >
+                            Clear editor button
+                        </p>
+                        <p
+                            class="text"
+                            style="left: 66%; top: 63%; text-align: center"
+                        >
+                            Output/Error indication
+                        </p>
+                        <p
+                            class="text"
+                            style="left: 65%; top: 75%; text-align: center"
+                        >
+                            Upload Button
+                        </p>
+                    </div>
+                    <div class="mySlides">
+                        <img
+                            class="helpscreen"
+                            src="./images/helpScreen2.png"
+                            alt="helpScreen"
+                            draggable="false"
+                        />
+                        <p
+                            class="text"
+                            style="left: 36%; top: 52%; text-align: center"
+                        >
+                            Python coding editor
+                        </p>
+                    </div>
+                    <div class="mySlides">
+                        <img
+                            class="helpscreen"
+                            src="./images/helpScreen3.png"
+                            alt="helpScreen"
+                            draggable="false"
+                        />
+                        <p
+                            class="text"
+                            style="left: 29%; top: 45%; text-align: center"
+                        >
+                            Errors/Outputs screen
+                        </p>
+                        <p
+                            class="text"
+                            style="left: 68%; top: 45%; text-align: center"
+                        >
+                            Close error screen button
+                        </p>
+                    </div>
+                </div>
+
+                <img
+                    onclick="plusSlides(1)"
+                    class="rightArrow"
+                    src="./images/right.png"
+                    alt="helpScreen"
+                    draggable="false"
+                />
+                <div
+                    style="
+                        text-align: center;
+                        bottom: 5%;
+                        position: absolute;
+                        left: 48%;
+                    "
+                >
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <div>
+                <textarea id="code" name="code"> </textarea>
+            </div>
+            <div>
+                <div id="message" class="message"></div>
+                <div id="error" class="error">
+                    <div>
+                        <img
+                            src="./images/error.png"
+                            alt="error"
+                            draggable="false"
+                        />
+                    </div>
+                    <div>
+                        <img
+                            class="hoverImg"
+                            src="./images/close.png"
+                            alt="error"
+                            draggable="false"
+                            onclick="errorClose()"
+                        />
+                    </div>
+                </div>
+                <img
+                    class="erase"
+                    src="./images/erase.png"
+                    alt="reset"
+                    onclick="reset()"
+                    draggable="false"
+                />
+                <img
+                    id="upload"
+                    class="upload"
+                    src="./images/upload.png"
+                    alt="upload"
+                    draggable="false"
+                    onclick="upload()"
+                />
+                <img
+                    id="back"
+                    class="back"
+                    src="./images/back.png"
+                    alt="back"
+                    draggable="false"
+                    onclick="back()"
+                />
+            </div>
+        </div>
+    </body>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.js"
+        integrity="sha512-XMlgZzPyVXf1I/wbGnofk1Hfdx+zAWyZjh6c21yGo/k1zNC4Ve6xcQnTDTCHrjFGsOrVicJsBURLYktVEu/8vQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/mode/python/python.min.js"
+        integrity="sha512-/mavDpedrvPG/0Grj2Ughxte/fsm42ZmZWWpHz1jCbzd5ECv8CB7PomGtw0NAnhHmE/lkDFkRMupjoohbKNA1Q=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <script src="./webrepl.js"></script>
+</html>

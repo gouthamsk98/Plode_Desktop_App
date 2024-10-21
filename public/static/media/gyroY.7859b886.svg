@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1829" data-name="Rectangle 1829" width="40" height="40" transform="translate(350 225)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.117" y1="0.107" x2="0.862" y2="0.932" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc45"/>
+      <stop offset="0.733" stop-color="#f87b62"/>
+      <stop offset="1" stop-color="#f16178"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_2679" data-name="Rectangle 2679" width="11.368" height="18.952" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="button_40x40_-_white_fill" data-name="button 40x40 - white fill" transform="translate(-350 -225)" clip-path="url(#clip-path)">
+    <path id="Path_7764" data-name="Path 7764" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(352 226)" fill="url(#linear-gradient)"/>
+    <g id="Group_5573" data-name="Group 5573" transform="translate(364.316 234.523)">
+      <path id="Path_8338" data-name="Path 8338" d="M4.419,57.878,2.967,61.124,1.506,57.878H0l2.254,4.238v2.732h1.4V62.17l2.281-4.292Z" transform="translate(0 -51.887)" fill="#fff"/>
+      <g id="Group_5574" data-name="Group 5574">
+        <g id="Group_5573-2" data-name="Group 5573" clip-path="url(#clip-path-2)">
+          <path id="Path_8339" data-name="Path 8339" d="M36.631,80.552a.625.625,0,0,0-.365.15L34.831,81.95a.617.617,0,1,0,.811.932l.334-.29a26.173,26.173,0,0,1-.741,4.138c-.261.921-.97,3.075-1.922,3.2-.667.084-1.488-.925-1.78-1.426a.617.617,0,0,0-1.069.618,6.05,6.05,0,0,0,.8,1.045,2.661,2.661,0,0,0,2.2.989c1.257-.157,2.225-1.493,2.959-4.084a27.2,27.2,0,0,0,.79-4.433l.326.343a.617.617,0,0,0,.894-.851l-1.315-1.382A.622.622,0,0,0,36.631,80.552Z" transform="translate(-27.235 -72.212)" fill="#fff"/>
+          <path id="Path_8340" data-name="Path 8340" d="M30.482,1.683a.617.617,0,0,0,1.054.644A3.529,3.529,0,0,1,32.06,1.7a1.34,1.34,0,0,1,1.017-.455c.411.064,1.471.649,2.45,4.685a.617.617,0,1,0,1.2-.291C35.866,2.089,34.735.253,33.268.024,31.669-.227,30.529,1.605,30.482,1.683Z" transform="translate(-27.245 0)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
