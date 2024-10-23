@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="63" viewBox="0 0 62 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.185" y1="0.5" x2="1.615" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aaa3f5"/>
+      <stop offset="1" stop-color="#462687"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.171" y1="-0.168" x2="1.345" y2="1.21" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c8cf2"/>
+      <stop offset="1" stop-color="#25245e"/>
+    </linearGradient>
+  </defs>
+  <g id="joystick_button" data-name="joystick button" transform="translate(4)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="22" cy="22" r="22" transform="translate(5 10)" opacity="0.4" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="27" cy="27" r="27" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

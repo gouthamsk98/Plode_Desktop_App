@@ -1,0 +1,18 @@
+<svg id="button_52x52_-_stroke" data-name="button 52x52 - stroke" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1782" data-name="Rectangle 1782" width="52" height="52" transform="translate(29 39)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="button_48x48_-_stroke" data-name="button 48x48 - stroke" transform="translate(-29 -39)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="19" cy="19" r="19" transform="translate(36 45)" fill="#25245e" opacity="0.15"/>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(35 39)" fill="#fcfcfc" stroke="#25245e" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <g id="Path_5484" data-name="Path 5484" transform="translate(-1295.599 -1221.322)">
+      <path id="Path_6830" data-name="Path 6830" d="M1405.007,1472.078h0a.769.769,0,0,0-.732.5.78.78,0,1,0,.732-.5Z" transform="translate(-54.409 -185.919)" fill="#25245e" stroke="#25245e" stroke-width="0.2"/>
+      <path id="Path_6831" data-name="Path 6831" d="M1351.376,1284.057v-1.966l.332-.08a4.614,4.614,0,1,0-4.36-7.779,4.544,4.544,0,0,0-1.4,3.286.778.778,0,1,0,1.556,0,3,3,0,0,1,.926-2.164,3.124,3.124,0,0,1,2.156-.867c.046,0,.092,0,.138,0a3.079,3.079,0,0,1,2.967,2.923v.007a3.059,3.059,0,0,1-2.418,3.094,1.84,1.84,0,0,0-1.453,1.8v1.746a.779.779,0,0,0,.779.778h0a.777.777,0,0,0,.778-.777" transform="translate(0 0)" fill="#25245e" stroke="#25245e" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

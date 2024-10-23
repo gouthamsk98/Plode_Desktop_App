@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1782" data-name="Rectangle 1782" width="56" height="56" transform="translate(4)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5635" data-name="Group 5635" transform="translate(-775 -248)">
+    <g id="button_64x64_-_stroke" data-name="button 64x64 - stroke" transform="translate(775 248)">
+      <g id="button_64x64_-_stroke-2" data-name="button 64x64 - stroke" transform="translate(-4)" clip-path="url(#clip-path)">
+        <ellipse id="Ellipse_15" data-name="Ellipse 15" cx="23" cy="23.5" rx="23" ry="23.5" transform="translate(9 4)" fill="#25245e" opacity="0.2"/>
+        <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(8)" fill="#25245e" stroke="#25245e" stroke-width="1">
+          <circle cx="24" cy="24" r="24" stroke="none"/>
+          <circle cx="24" cy="24" r="23.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_8" data-name="8" transform="translate(797 280)" fill="#fcfcfc" font-size="24" font-family="Halcyon-Medium, Halcyon" font-weight="500" letter-spacing="0.025em"><tspan x="0" y="0">8</tspan></text>
+  </g>
+</svg>

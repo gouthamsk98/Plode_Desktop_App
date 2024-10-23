@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="727.578" height="282.073" viewBox="0 0 727.578 282.073">
+  <defs>
+    <filter id="Union_35" x="6" y="6" width="721.578" height="276.073" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#171d1a" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_34" x="0" y="0" width="721.578" height="276.073" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.021" y1="0.5" x2="1.904" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e7e7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_5727" data-name="Group 5727" transform="translate(-100.775 -68.105)">
+    <line id="Line_3" data-name="Line 3" y2="232.45" transform="translate(147.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-2" data-name="Line 3" y2="232.45" transform="translate(176.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-3" data-name="Line 3" y2="232.45" transform="translate(205.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-4" data-name="Line 3" y2="232.45" transform="translate(234.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-5" data-name="Line 3" y2="232.45" transform="translate(263.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-6" data-name="Line 3" y2="232.45" transform="translate(292.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-7" data-name="Line 3" y2="232.45" transform="translate(321.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-8" data-name="Line 3" y2="232.45" transform="translate(350.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-9" data-name="Line 3" y2="232.45" transform="translate(379.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-10" data-name="Line 3" y2="232.45" transform="translate(408.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-11" data-name="Line 3" y2="232.45" transform="translate(437.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-12" data-name="Line 3" y2="232.45" transform="translate(466.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-13" data-name="Line 3" y2="232.45" transform="translate(495.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-14" data-name="Line 3" y2="232.45" transform="translate(524.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-15" data-name="Line 3" y2="232.45" transform="translate(553.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-16" data-name="Line 3" y2="232.45" transform="translate(582.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-17" data-name="Line 3" y2="232.45" transform="translate(611.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-18" data-name="Line 3" y2="232.45" transform="translate(640.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-19" data-name="Line 3" y2="232.45" transform="translate(669.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-20" data-name="Line 3" y2="232.45" transform="translate(698.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_4" data-name="Line 4" x2="667.152" transform="translate(118.996 127.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_4-2" data-name="Line 4" x2="667.152" transform="translate(118.996 156.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_4-3" data-name="Line 4" x2="667.152" transform="translate(118.996 185.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_4-4" data-name="Line 4" x2="667.152" transform="translate(118.996 214.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_4-5" data-name="Line 4" x2="667.152" transform="translate(118.996 243.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_4-6" data-name="Line 4" x2="667.152" transform="translate(118.996 272.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_4-7" data-name="Line 4" x2="667.152" transform="translate(118.996 301.45)" fill="none" stroke="#707070" stroke-width="1" opacity="0.1"/>
+    <line id="Line_3-21" data-name="Line 3" y2="232.45" transform="translate(727.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <line id="Line_3-22" data-name="Line 3" y2="232.45" transform="translate(756.996 98)" fill="none" stroke="#707070" stroke-width="1" opacity="0.05"/>
+    <g id="Group_5726" data-name="Group 5726" transform="translate(0 1)">
+      <g transform="matrix(1, 0, 0, 1, 100.78, 67.11)" filter="url(#Union_35)">
+        <path id="Union_35-2" data-name="Union 35" d="M17096.113,10917.073a5.11,5.11,0,0,1-5.111-5.112v-244.849a5.112,5.112,0,1,1,10.225,0v239.731h685.236a5.115,5.115,0,1,1,0,10.229Z" transform="translate(-17077.5 -10648.5)" fill="#fcfcfc"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 100.78, 67.11)" filter="url(#Union_34)">
+        <path id="Union_34-2" data-name="Union 34" d="M17096.113,10917.073a5.11,5.11,0,0,1-5.111-5.112v-244.849a5.112,5.112,0,1,1,10.225,0v239.731h685.236a5.115,5.115,0,1,1,0,10.229Z" transform="translate(-17077.5 -10648.5)" fill="#fcfcfc"/>
+      </g>
+      <g id="Union_33" data-name="Union 33" transform="translate(-16976.727 -10581.395)" opacity="0.8" fill="url(#linear-gradient)">
+        <path d="M 17786.462890625 10916.3232421875 L 17096.11328125 10916.3232421875 C 17093.708984375 10916.3232421875 17091.751953125 10914.3662109375 17091.751953125 10911.9609375 L 17091.751953125 10667.1123046875 C 17091.751953125 10664.70703125 17093.708984375 10662.75 17096.11328125 10662.75 C 17098.51953125 10662.75 17100.4765625 10664.70703125 17100.4765625 10667.1123046875 L 17100.4765625 10906.84375 L 17100.4765625 10907.59375 L 17101.2265625 10907.59375 L 17786.462890625 10907.59375 C 17788.87109375 10907.59375 17790.830078125 10909.552734375 17790.830078125 10911.9609375 C 17790.830078125 10914.3662109375 17788.87109375 10916.3232421875 17786.462890625 10916.3232421875 Z" stroke="none"/>
+        <path d="M 17786.462890625 10915.5732421875 C 17788.45703125 10915.5732421875 17790.080078125 10913.953125 17790.080078125 10911.9609375 C 17790.080078125 10909.966796875 17788.45703125 10908.34375 17786.462890625 10908.34375 L 17099.7265625 10908.34375 L 17099.7265625 10667.1123046875 C 17099.7265625 10665.1201171875 17098.10546875 10663.5 17096.11328125 10663.5 C 17094.12109375 10663.5 17092.501953125 10665.1201171875 17092.501953125 10667.1123046875 L 17092.501953125 10911.9609375 C 17092.501953125 10913.953125 17094.12109375 10915.5732421875 17096.11328125 10915.5732421875 L 17786.462890625 10915.5732421875 M 17786.462890625 10917.0732421875 L 17096.11328125 10917.0732421875 C 17093.287109375 10917.0732421875 17091.001953125 10914.783203125 17091.001953125 10911.9609375 L 17091.001953125 10667.1123046875 C 17091.001953125 10664.291015625 17093.287109375 10662 17096.11328125 10662 C 17098.94140625 10662 17101.2265625 10664.291015625 17101.2265625 10667.1123046875 L 17101.2265625 10906.84375 L 17786.462890625 10906.84375 C 17789.2890625 10906.84375 17791.580078125 10909.134765625 17791.580078125 10911.9609375 C 17791.580078125 10914.783203125 17789.2890625 10917.0732421875 17786.462890625 10917.0732421875 Z" stroke="none" fill="#fcfcfc"/>
+      </g>
+    </g>
+  </g>
+</svg>
