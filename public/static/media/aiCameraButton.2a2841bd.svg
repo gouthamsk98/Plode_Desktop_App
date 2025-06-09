@@ -1,0 +1,20 @@
+<svg id="button_48x48_-_fill" data-name="button 48x48 - fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1782" data-name="Rectangle 1782" width="68" height="68" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.446" y1="0.188" x2="1.095" y2="0.822" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc45"/>
+      <stop offset="1" stop-color="#f87b62"/>
+    </linearGradient>
+  </defs>
+  <g id="button_48x48_-_fill-2" data-name="button 48x48 - fill" clip-path="url(#clip-path)">
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="25" cy="25" r="25" transform="translate(9 13)" fill="#f87b62" opacity="0.4"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="30" cy="30" r="30" transform="translate(4 1)" fill="url(#linear-gradient)"/>
+    <g id="shutter_570461" transform="translate(19.92 16.92)">
+      <g id="Group_6101" data-name="Group 6101">
+        <path id="Path_8672" data-name="Path 8672" d="M14.08,0a14.08,14.08,0,1,0,14.08,14.08A14.08,14.08,0,0,0,14.08,0ZM25.2,8.8H14.08a5.282,5.282,0,0,0-1.021.1l3.951-6.776A12.32,12.32,0,0,1,25.2,8.8ZM17.6,14.08a3.52,3.52,0,1,1-.642-2.015l.07.1A3.52,3.52,0,0,1,17.6,14.08ZM14.08,1.76a7.254,7.254,0,0,1,1.074.053L9.8,11a5.281,5.281,0,0,0-.475.792L5.447,5.28A12.321,12.321,0,0,1,14.08,1.76ZM1.76,14.08A12.241,12.241,0,0,1,4.233,6.706L8.8,14.344A5.28,5.28,0,0,0,10.156,17.6H2.235A12.267,12.267,0,0,1,1.76,14.08Zm1.206,5.28H14.08a5.281,5.281,0,0,0,1.021-.1L11.15,26.04A12.32,12.32,0,0,1,2.966,19.361ZM14.08,26.4a7.254,7.254,0,0,1-1.074-.053l5.351-9.187a5.281,5.281,0,0,0,.827-1.76l4.4,6.547A12.32,12.32,0,0,1,14.08,26.4Zm4.4-15.163-.123-.185-.07-.106a5.068,5.068,0,0,0-.326-.4h7.92a12.2,12.2,0,0,1-1.241,9.856Z" fill="#fcfcfc"/>
+      </g>
+    </g>
+  </g>
+</svg>

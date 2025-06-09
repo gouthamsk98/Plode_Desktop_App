@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1829" data-name="Rectangle 1829" width="40" height="40" transform="translate(350 225)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.117" y1="0.107" x2="0.862" y2="0.932" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc45"/>
+      <stop offset="0.733" stop-color="#f87b62"/>
+      <stop offset="1" stop-color="#f16178"/>
+    </linearGradient>
+  </defs>
+  <g id="button_40x40_-_white_fill" data-name="button 40x40 - white fill" transform="translate(-350 -225)" clip-path="url(#clip-path)">
+    <path id="Path_7764" data-name="Path 7764" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(352 225)" fill="url(#linear-gradient)"/>
+    <g id="face_3342269" transform="translate(360.848 233.434)">
+      <circle id="Ellipse_834" data-name="Ellipse 834" cx="3.776" cy="3.776" r="3.776" transform="translate(5.184 2)" fill="#fcfcfc"/>
+      <path id="Path_8695" data-name="Path 8695" d="M3.54,21.484H15.428a.541.541,0,0,0,.54-.54V18.422A3.426,3.426,0,0,0,12.546,15H6.422A3.426,3.426,0,0,0,3,18.422v2.522A.541.541,0,0,0,3.54,21.484Z" transform="translate(-0.332 -4.351)" fill="#fcfcfc"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249.41" height="232.726" viewBox="0 0 249.41 232.726">
+  <defs>
+    <filter id="Rectangle_1648" x="0" y="0" width="249.41" height="232.726" filterUnits="userSpaceOnUse">
+      <feOffset dx="12" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#171d1a" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1663" x="1.119" y="1.119" width="213.173" height="196.488" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.571" y1="0.301" x2="0.776" y2="0.456" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e7e7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="1.028" y2="1.187" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8acdea"/>
+      <stop offset="1" stop-color="#30a8ce"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_6175" data-name="Group 6175" transform="translate(-242.964 -128.611)">
+    <g id="sub_menu_card" data-name="sub menu card" transform="matrix(0.995, -0.105, 0.105, 0.995, 279.083, 179.484)">
+      <g transform="matrix(0.99, 0.1, -0.1, 0.99, -30.6, -54.37)" filter="url(#Rectangle_1648)">
+        <rect id="Rectangle_1648-2" data-name="Rectangle 1648" width="141.151" height="122.404" rx="25" transform="matrix(0.99, -0.1, 0.1, 0.99, 36.12, 50.87)" fill="#fcfcfc"/>
+      </g>
+      <g transform="matrix(0.99, 0.1, -0.1, 0.99, -30.6, -54.37)" filter="url(#Rectangle_1663)">
+        <rect id="Rectangle_1663-2" data-name="Rectangle 1663" width="141.151" height="122.404" rx="25" transform="matrix(0.99, -0.1, 0.1, 0.99, 36.12, 50.87)" fill="#fcfcfc"/>
+      </g>
+      <g id="Rectangle_1664" data-name="Rectangle 1664" stroke="#fcfcfc" stroke-width="1.5" fill="url(#linear-gradient)">
+        <rect width="141.151" height="122.404" rx="25" stroke="none"/>
+        <rect x="0.75" y="0.75" width="139.651" height="120.904" rx="24.25" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_6170" data-name="Group 6170" transform="translate(0 7.16)">
+      <path id="Union_57" data-name="Union 57" d="M13118.218,1017.1a2.1,2.1,0,0,1,0-4.194h2.938l1.189-3.447h22.885l1.19,3.447h2.938a2.1,2.1,0,1,1,0,4.194Zm-13.835-11.836a6.391,6.391,0,0,1-6.382-6.389V966.744h71.579V998.88a6.4,6.4,0,0,1-6.386,6.389Zm38.362-28.325a2.1,2.1,0,0,0-.105,2.965l5.82,6.24-5.82,6.24a2.1,2.1,0,1,0,3.067,2.859l7.155-7.671a2.1,2.1,0,0,0,0-2.859l-7.155-7.671a2.1,2.1,0,0,0-2.962-.1Zm-8.511.879-5.023,15.342a2.1,2.1,0,0,0,1.342,2.644,2.034,2.034,0,0,0,.651.106,2.1,2.1,0,0,0,1.993-1.444l5.023-15.342a2.1,2.1,0,0,0-3.986-1.306Zm-12.364-.777-7.152,7.671a2.09,2.09,0,0,0,0,2.859l7.152,7.671a2.1,2.1,0,0,0,3.067-2.862l-5.82-6.237,5.82-6.24a2.1,2.1,0,0,0-3.067-2.862ZM13098,962.553v-6.164a6.391,6.391,0,0,1,6.382-6.389h58.812a6.4,6.4,0,0,1,6.386,6.389v6.164Zm23.05-6.042a2.094,2.094,0,0,0,2.095,2.1h3.131a2.1,2.1,0,1,0,0-4.194h-3.131A2.093,2.093,0,0,0,13121.051,956.511Zm-9.357,0a2.1,2.1,0,0,0,2.1,2.1h3.131a2.1,2.1,0,0,0,0-4.194h-3.131A2.1,2.1,0,0,0,13111.693,956.511Zm-9.354,0a2.1,2.1,0,0,0,2.1,2.1h3.131a2.1,2.1,0,0,0,0-4.194h-3.131A2.1,2.1,0,0,0,13102.34,956.511Z" transform="translate(-12793 -791.291)" opacity="0.35" fill="url(#linear-gradient-2)"/>
+      <path id="Union_59" data-name="Union 59" d="M13118.218,1017.1a2.1,2.1,0,0,1,0-4.194h2.938l1.189-3.447h22.885l1.19,3.447h2.938a2.1,2.1,0,1,1,0,4.194Zm-13.835-11.836a6.391,6.391,0,0,1-6.382-6.389V966.744h71.579V998.88a6.4,6.4,0,0,1-6.386,6.389Zm38.362-28.325a2.1,2.1,0,0,0-.105,2.965l5.82,6.24-5.82,6.24a2.1,2.1,0,1,0,3.067,2.859l7.155-7.671a2.1,2.1,0,0,0,0-2.859l-7.155-7.671a2.1,2.1,0,0,0-2.962-.1Zm-8.511.879-5.023,15.342a2.1,2.1,0,0,0,1.342,2.644,2.034,2.034,0,0,0,.651.106,2.1,2.1,0,0,0,1.993-1.444l5.023-15.342a2.1,2.1,0,0,0-3.986-1.306Zm-12.364-.777-7.152,7.671a2.09,2.09,0,0,0,0,2.859l7.152,7.671a2.1,2.1,0,0,0,3.067-2.862l-5.82-6.237,5.82-6.24a2.1,2.1,0,0,0-3.067-2.862ZM13098,962.553v-6.164a6.391,6.391,0,0,1,6.382-6.389h58.812a6.4,6.4,0,0,1,6.386,6.389v6.164Zm23.05-6.042a2.094,2.094,0,0,0,2.095,2.1h3.131a2.1,2.1,0,1,0,0-4.194h-3.131A2.093,2.093,0,0,0,13121.051,956.511Zm-9.357,0a2.1,2.1,0,0,0,2.1,2.1h3.131a2.1,2.1,0,0,0,0-4.194h-3.131A2.1,2.1,0,0,0,13111.693,956.511Zm-9.354,0a2.1,2.1,0,0,0,2.1,2.1h3.131a2.1,2.1,0,0,0,0-4.194h-3.131A2.1,2.1,0,0,0,13102.34,956.511Z" transform="translate(-12793 -793.291)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

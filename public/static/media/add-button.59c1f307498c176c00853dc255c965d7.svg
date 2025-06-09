@@ -1,0 +1,19 @@
+<svg id="button_48x48_-_fill" data-name="button 48x48 - fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1782" data-name="Rectangle 1782" width="32" height="32" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.446" y1="0.188" x2="1.095" y2="0.822" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc45"/>
+      <stop offset="1" stop-color="#f87b62"/>
+    </linearGradient>
+  </defs>
+  <g id="button_48x48_-_fill-2" data-name="button 48x48 - fill" clip-path="url(#clip-path)">
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="12" cy="12" r="12" transform="translate(5 6)" fill="#f87b62" opacity="0.3"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="14" cy="14" r="14" transform="translate(2 1)" fill="url(#linear-gradient)"/>
+    <g id="Group_2985" data-name="Group 2985" transform="translate(10.502 14.588) rotate(-45)">
+      <path id="Path_6824" data-name="Path 6824" d="M6.975,7.748a.779.779,0,0,1-.549-.226l-6.2-6.2a.775.775,0,0,1,1.1-1.1l6.2,6.2a.774.774,0,0,1-.547,1.322Z" transform="translate(0 0)" fill="#fcfcfc"/>
+      <path id="Path_6825" data-name="Path 6825" d="M.775,7.748A.774.774,0,0,1,.227,6.426l6.2-6.2a.775.775,0,0,1,1.1,1.1l-6.2,6.2a.772.772,0,0,1-.547.226Z" transform="translate(0 0)" fill="#fcfcfc"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264.395" height="245.705" viewBox="0 0 264.395 245.705">
+  <defs>
+    <filter id="Rectangle_1648" x="0" y="0" width="264.395" height="245.705" filterUnits="userSpaceOnUse">
+      <feOffset dx="12" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#171d1a" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1663" x="1.119" y="1.119" width="228.158" height="209.468" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.571" y1="0.301" x2="0.776" y2="0.456" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e7e7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_6194" data-name="Group 6194" transform="translate(-258.723 -119.147)">
+    <g id="sub_menu_card" data-name="sub menu card" transform="matrix(0.995, -0.105, 0.105, 0.995, 294.842, 171.468)">
+      <g transform="matrix(0.99, 0.1, -0.1, 0.99, -30.45, -55.81)" filter="url(#Rectangle_1648)">
+        <rect id="Rectangle_1648-2" data-name="Rectangle 1648" width="155" height="134" rx="25" transform="matrix(0.99, -0.1, 0.1, 0.99, 36.12, 52.32)" fill="#fcfcfc"/>
+      </g>
+      <g transform="matrix(0.99, 0.1, -0.1, 0.99, -30.45, -55.81)" filter="url(#Rectangle_1663)">
+        <rect id="Rectangle_1663-2" data-name="Rectangle 1663" width="155" height="134" rx="25" transform="matrix(0.99, -0.1, 0.1, 0.99, 36.12, 52.32)" fill="#fcfcfc"/>
+      </g>
+      <g id="Rectangle_1664" data-name="Rectangle 1664" stroke="#fcfcfc" stroke-width="1.5" fill="url(#linear-gradient)">
+        <rect width="155" height="134" rx="25" stroke="none"/>
+        <rect x="0.75" y="0.75" width="153.5" height="132.5" rx="24.25" fill="none"/>
+      </g>
+    </g>
+    <g id="Artwork_8" data-name="Artwork 8" transform="translate(319.461 146.969)">
+      <rect id="Rectangle_3155" data-name="Rectangle 3155" width="71.276" height="71.276" rx="35.638" transform="translate(0 0)" fill="#ffe240"/>
+      <g id="Group_6191" data-name="Group 6191" transform="translate(14.79 23.073)">
+        <path id="Path_8877" data-name="Path 8877" d="M70.6,72.154a19.461,19.461,0,0,0-5.345,3.521.267.267,0,0,1-.44-.113,19.559,19.559,0,0,1-.834-5.7,19.327,19.327,0,0,1,6.622,1.8A.271.271,0,0,1,70.6,72.154Z" transform="translate(-57.643 -69.859)" fill="#26357f"/>
+        <path id="Path_8878" data-name="Path 8878" d="M138.078,69.859a19.558,19.558,0,0,1-.834,5.7.267.267,0,0,1-.44.113,19.461,19.461,0,0,0-5.345-3.521.271.271,0,0,1,0-.491A19.351,19.351,0,0,1,138.078,69.859Z" transform="translate(-102.726 -69.859)" fill="#26357f"/>
+        <path id="Path_8879" data-name="Path 8879" d="M85.1,107.356a31.5,31.5,0,0,0-4.807-7.02v0c-3.3-3.3-6.7-.058-9.82,1.6L65.9,104.575a.524.524,0,0,1-.534,0c-1.328-.767-3.338-1.928-4.573-2.637-3.151-1.679-6.533-4.928-9.848-1.57h0c-.051.055-.1.109-.148.168h0a31.617,31.617,0,0,0-5.991,9.953.27.27,0,0,0,.206.358c1.878.331,11.4,2.01,12.976,2.291a.262.262,0,0,0,.277-.129c.876-1.519,2.127-3.685,2.972-5.146a1.767,1.767,0,0,1,3.3.841c-.016.919-1.383,2.77-1.909,3.744a.269.269,0,0,0,.1.358c.6.351,2.275,1.313,2.77,1.6a.275.275,0,0,0,.269,0c.5-.288,2.17-1.25,2.77-1.6a.265.265,0,0,0,.1-.358c-.526-.978-1.889-2.82-1.909-3.744a1.77,1.77,0,0,1,3.307-.841c.841,1.457,2.1,3.631,2.968,5.146a.267.267,0,0,0,.277.129c1.589-.28,11.1-1.956,12.976-2.291a.268.268,0,0,0,.206-.358A30.669,30.669,0,0,0,85.1,107.356Zm-25.437-1.885a2.859,2.859,0,0,1-4.2-3.241l5.329,1.944A2.893,2.893,0,0,1,59.658,105.471Zm13.424.417a2.841,2.841,0,0,1-2.606-1.718c1.461-.53,3.86-1.406,5.325-1.94A2.853,2.853,0,0,1,73.082,105.887Z" transform="translate(-44.781 -89.312)" fill="#26357f"/>
+      </g>
+    </g>
+  </g>
+</svg>
