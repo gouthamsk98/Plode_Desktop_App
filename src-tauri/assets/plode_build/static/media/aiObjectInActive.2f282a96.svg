@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="104" viewBox="0 0 104 104">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2267" data-name="Rectangle 2267" width="104" height="104" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Ellipse_719" x="-4" y="-4" width="122" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_720" x="-8" y="-8" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.254" y1="0.077" x2="0.946" y2="0.655" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e7e7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_44" data-name="Mask Group 44" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_719)">
+      <circle id="Ellipse_719-2" data-name="Ellipse 719" cx="40" cy="40" r="40" transform="translate(12 12)" fill="#fff" opacity="0.59"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_720)">
+      <circle id="Ellipse_720-2" data-name="Ellipse 720" cx="40" cy="40" r="40" transform="translate(12 12)" fill="#fff"/>
+    </g>
+    <g id="Ellipse_721" data-name="Ellipse 721" transform="translate(12 12)" stroke="#fff" stroke-width="1.5" opacity="0.8" fill="url(#linear-gradient)">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.25" fill="none"/>
+    </g>
+    <path id="Path_8116" data-name="Path 8116" d="M-1415.551-3498.584l-10.515-5.847a1.755,1.755,0,0,0-1.7,0l-10.514,5.847a1.753,1.753,0,0,0-.9,1.533v14.013a1.754,1.754,0,0,0,.9,1.533l10.514,5.847a1.753,1.753,0,0,0,.853.221,1.753,1.753,0,0,0,.852-.221l10.514-5.847a1.754,1.754,0,0,0,.9-1.533v-14.013A1.754,1.754,0,0,0-1415.551-3498.584Zm-11.367-2.307,6.905,3.84-6.905,3.839-6.905-3.84Zm-8.76,6.822,7.006,3.9v10l-7.006-3.9Zm10.515,13.9v-10l7.006-3.9v10Z" transform="translate(1479.076 3542.044)" fill="#25245e" stroke="#fcfcfc" stroke-width="1.5"/>
+  </g>
+</svg>

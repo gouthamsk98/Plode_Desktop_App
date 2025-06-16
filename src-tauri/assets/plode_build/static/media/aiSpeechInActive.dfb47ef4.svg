@@ -1,0 +1,38 @@
+<svg id="Component_27_105" data-name="Component 27 – 105" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="104" viewBox="0 0 104 104">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2267" data-name="Rectangle 2267" width="104" height="104" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Ellipse_719" x="-4" y="-4" width="122" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_720" x="-8" y="-8" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-0.254" y1="0.077" x2="0.946" y2="0.655" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e7e7"/>
+      <stop offset="1" stop-color="#fcfcfc"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_44" data-name="Mask Group 44" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_719)">
+      <circle id="Ellipse_719-2" data-name="Ellipse 719" cx="40" cy="40" r="40" transform="translate(12 12)" fill="#fff" opacity="0.59"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_720)">
+      <circle id="Ellipse_720-2" data-name="Ellipse 720" cx="40" cy="40" r="40" transform="translate(12 12)" fill="#fff"/>
+    </g>
+    <g id="Ellipse_721" data-name="Ellipse 721" transform="translate(12 12)" stroke="#fff" stroke-width="1.5" opacity="0.8" fill="url(#linear-gradient)">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="39.25" fill="none"/>
+    </g>
+    <path id="Union_51" data-name="Union 51" d="M16825,13070.507a1,1,0,0,1-1-1v-.57a1,1,0,0,1,1-1h4.449v-3.25a6.744,6.744,0,0,1-5.447-6.608v-7.847a6.731,6.731,0,0,1,13.463,0v7.847a6.745,6.745,0,0,1-5.443,6.607v3.251h4.441a1,1,0,0,1,1,1v.57a1,1,0,0,1-1,1Zm6.014-7.716a4.741,4.741,0,0,0,4.3-3.541h-2.279a1,1,0,0,1,0-2h2.426v-2.007h-2.426a1,1,0,0,1,0-2h2.426v-2.007h-2.426a1,1,0,0,1,0-2.007h2.316a4.722,4.722,0,0,0-9.229,0h2.248a1,1,0,0,1,0,2.007h-2.357v2.007h2.357a1,1,0,0,1,0,2h-2.357v2.007h2.357a1,1,0,1,1,0,2h-2.211a4.731,4.731,0,0,0,4.3,3.541Z" transform="translate(-16778.734 -13005.004)" fill="#25245e" stroke="#fcfcfc" stroke-width="0.5"/>
+  </g>
+</svg>

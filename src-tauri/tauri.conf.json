@@ -3,18 +3,15 @@
   "productName": "plode",
   "version": "0.1.0",
   "identifier": "com.plode.app",
-  "build": {
-    "beforeBuildCommand": "npm run build",
-    "frontendDist": "../dist"
-  },
   "app": {
     "windows": [
       {
         "title": "plode",
-        "width": 800,
-        "height": 600,
+        "width": 1200,
+        "height": 800,
         "resizable": true,
-        "dragDropEnabled": false
+        "dragDropEnabled": false,
+        "url": "http://localhost:3123"
       }
     ],
     "security": {
@@ -32,14 +29,13 @@
       "icons/icon.ico"
     ],
     "resources": [
-      "assets/dist/**/*",
-      "assets/dist/**/**/*",
-      "assets/dist/**/**/**/*",
-      "assets/dist/**/**/**/**/*",
-      "assets/dist/**/**/**/**/**/*",
-      "assets/dist/**/**/**/**/**/**/*",
-      "assets/dist/**/**/**/**/**/**/**/*",
-      "assets/dist/**/**/**/**/**/**/**/**/*"
+      "assets/**/**/*",
+      "assets/**/**/**/*",
+      "assets/**/**/**/**/*",
+      "assets/**/**/**/**/**/*",
+      "assets/**/**/**/**/**/**/*",
+      "assets/**/**/**/**/**/**/**/*",
+      "assets/**/**/**/**/**/**/**/**/*"
     ]
   }
 }

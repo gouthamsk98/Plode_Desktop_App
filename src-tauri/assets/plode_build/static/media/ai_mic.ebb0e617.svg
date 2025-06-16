@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3137" data-name="Rectangle 3137" width="40" height="40" transform="translate(350 225)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1.483" y1="1.079" x2="-0.777" y2="-0.232" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#c2c2c2"/>
+    </linearGradient>
+  </defs>
+  <g id="button_40x40_-_white_fill" data-name="button 40x40 - white fill" transform="translate(-350 -225)" clip-path="url(#clip-path)">
+    <path id="Path_8738" data-name="Path 8738" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(352 226)" fill="url(#linear-gradient)"/>
+    <path id="Union_51" data-name="Union 51" d="M16824.811,13060.5a.809.809,0,1,1,0-1.617h2.615v-2.051a4.246,4.246,0,0,1-3.426-4.159v-4.942a4.232,4.232,0,1,1,8.465,0v4.942a4.244,4.244,0,0,1-3.42,4.158v2.052h2.609a.809.809,0,1,1,0,1.617Zm3.422-4.854a2.977,2.977,0,0,0,2.877-2.23h-1.432a.631.631,0,0,1,0-1.263h1.525v-1.264h-1.525a.631.631,0,0,1,0-1.263h1.525v-1.264h-1.525a.631.631,0,0,1,0-1.263h1.457a2.969,2.969,0,0,0-5.8,0h1.416a.631.631,0,0,1,0,1.263h-1.482v1.264h1.482a.631.631,0,0,1,0,1.263h-1.482v1.264h1.482a.631.631,0,0,1,0,1.263h-1.391A2.978,2.978,0,0,0,16828.232,13055.651Z" transform="translate(-16458.232 -12808.004)"/>
+  </g>
+</svg>

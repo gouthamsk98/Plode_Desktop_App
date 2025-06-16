@@ -1,80 +1,81 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
-use tokio;
-use axum::routing::get;
-use tower_http::cors::{ CorsLayer, Any };
-use socketioxide::SocketIo;
-use tower_http::services::ServeDir;
-use tauri::{ webview::WebviewWindowBuilder, WebviewUrl };
+
+use std::path::PathBuf;
 use tauri::Manager;
-use axum::response::Html;
+use rocket::fs::{ FileServer, NamedFile };
+use rocket::{ get, routes, State };
+use std::env;
+
+#[get("/micropython")]
+async fn micropython_route(base_paths: &State<BasePaths>) -> Option<NamedFile> {
+    let index_path = base_paths.micropython_path.join("index.html");
+    NamedFile::open(index_path).await.ok()
+}
+
+#[get("/scratch")]
+async fn scratch_route(base_paths: &State<BasePaths>) -> Option<NamedFile> {
+    let index_path = base_paths.scratch_path.join("index.html");
+    NamedFile::open(index_path).await.ok()
+}
+
+#[derive(Clone)]
+struct BasePaths {
+    plode_path: PathBuf,
+    micropython_path: PathBuf,
+    scratch_path: PathBuf,
+}
 
 #[tokio::main]
 async fn main() {
     tauri::Builder
         ::default()
         .setup(move |app| {
-            // Create service to serve static files from dist folder
-            // Spawn your async code inside the runtime
-            let base_path = app
+            let plode_path = app
                 .path()
-                .resolve("assets/dist", tauri::path::BaseDirectory::Resource)
+                .resolve("assets/plode_build", tauri::path::BaseDirectory::Resource)
                 .unwrap();
-            let py_path = app
+            let micropython_path = app
                 .path()
-                .resolve(
-                    "assets/dist/micropython_build/index.html",
-                    tauri::path::BaseDirectory::Resource
-                )
+                .resolve("assets/micropython_build", tauri::path::BaseDirectory::Resource)
                 .unwrap();
             let scratch_path = app
                 .path()
-                .resolve(
-                    "assets/dist/scratch_build/index.html",
-                    tauri::path::BaseDirectory::Resource
-                )
+                .resolve("assets/scratch_build", tauri::path::BaseDirectory::Resource)
                 .unwrap();
-            let srach_dir = app
-                .path()
-                .resolve("assets/dist/scratch_build", tauri::path::BaseDirectory::Resource)
-                .unwrap();
-            println!("Base path: {:?}", base_path);
-            println!("Python path: {:?}", py_path);
-            tauri::async_runtime::spawn(async move {
-                let (socketio_layer, io) = SocketIo::new_layer();
-                let serve_dir = ServeDir::new(base_path);
-                let serve_dir2 = ServeDir::new(srach_dir);
-                // Example: Serve using warp or axum
-                let app = axum::Router
-                    ::new()
-                    .route(
-                        "/micropython",
-                        get(move || async move {
-                            let content = tokio::fs
-                                ::read_to_string(py_path).await
-                                .unwrap_or_else(|_|
-                                    "<html><body>Error loading page</body></html>".to_string()
-                                );
-                            Html(content)
-                        })
-                    )
-                    .route(
-                        "/scratch",
-                        get(move || async move {
-                            let content = tokio::fs
-                                ::read_to_string(scratch_path).await
-                                .unwrap_or_else(|_|
-                                    "<html><body>Error loading page</body></html>".to_string()
-                                );
-                            Html(content)
-                        })
-                    )
-                    .fallback_service(serve_dir2)
-                    .fallback_service(serve_dir)
-                    .layer(socketio_layer);
 
-                let listener = tokio::net::TcpListener::bind("0.0.0.0:3123").await.unwrap();
-                axum::serve(listener, app).await.unwrap();
+            let base_paths = BasePaths {
+                plode_path: plode_path.clone(),
+                micropython_path: micropython_path.clone(),
+                scratch_path: scratch_path.clone(),
+            };
+
+            tauri::async_runtime::spawn(async move {
+                let port = env
+                    ::var("PORT")
+                    .unwrap_or_else(|_| "3123".to_string())
+                    .parse::<u16>()
+                    .unwrap_or(3123);
+
+                let figment = rocket::Config
+                    ::figment()
+                    .merge(("port", port))
+                    .merge(("address", "127.0.0.1"));
+
+                let _ = rocket
+                    ::custom(figment)
+                    .manage(base_paths.clone())
+                    // Serve static files from all directories
+                    .mount("/", FileServer::from(base_paths.plode_path.clone()).rank(1))
+                    .mount("/", FileServer::from(base_paths.micropython_path.clone()).rank(2))
+                    .mount("/", FileServer::from(base_paths.scratch_path.clone()).rank(3))
+                    // Handle specific routes
+                    .mount("/", routes![micropython_route, scratch_route])
+                    .ignite().await
+                    .unwrap()
+                    .launch().await;
+
+                println!("Server started at port {}", port);
             });
             Ok(())
         })

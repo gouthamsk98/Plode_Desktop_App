@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1829" data-name="Rectangle 1829" width="40" height="40" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1.483" y1="1.079" x2="-0.777" y2="-0.232" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#c2c2c2"/>
+    </linearGradient>
+  </defs>
+  <g id="button_40x40_-_white_fill" data-name="button 40x40 - white fill" clip-path="url(#clip-path)">
+    <path id="Path_7764" data-name="Path 7764" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(2 1)" fill="url(#linear-gradient)"/>
+    <g id="Group_5982" data-name="Group 5982" transform="translate(7.59 8)">
+      <path id="Path_8690" data-name="Path 8690" d="M0,302.51a.727.727,0,0,0,.727.727H4.445a.727.727,0,0,0,.727-.727,7.184,7.184,0,0,1,1.707-4.67l-3.623-3.71A12.322,12.322,0,0,0,0,302.51Z" transform="translate(0 -290.121)"/>
+      <path id="Path_8691" data-name="Path 8691" d="M96.074,211.44a12.3,12.3,0,0,0-7.384,2.995l3.625,3.712a7.166,7.166,0,0,1,3.759-1.521Z" transform="translate(-84.391 -211.44)"/>
+      <path id="Path_8692" data-name="Path 8692" d="M271,211.44v5.187a7.166,7.166,0,0,1,3.759,1.521l3.625-3.712A12.3,12.3,0,0,0,271,211.44Z" transform="translate(-257.862 -211.44)"/>
+      <path id="Path_8693" data-name="Path 8693" d="M370.09,297.841a7.184,7.184,0,0,1,1.707,4.67.727.727,0,0,0,.727.727h3.718a.727.727,0,0,0,.727-.727,12.323,12.323,0,0,0-3.256-8.38Z" transform="translate(-352.148 -290.121)"/>
+    </g>
+    <text id="_4" data-name="4" transform="translate(20 26)" font-size="10" font-family="Halcyon-Medium, Halcyon" font-weight="500" letter-spacing="0.02em"><tspan x="-2" y="0">4</tspan></text>
+  </g>
+</svg>

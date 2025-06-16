@@ -1,0 +1,31 @@
+<svg id="button_48x48_-_fill" data-name="button 48x48 - fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1782" data-name="Rectangle 1782" width="68" height="68" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.446" y1="0.188" x2="1.095" y2="0.822" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbc45"/>
+      <stop offset="1" stop-color="#f87b62"/>
+    </linearGradient>
+  </defs>
+  <g id="button_48x48_-_fill-2" data-name="button 48x48 - fill" clip-path="url(#clip-path)">
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="25" cy="25" r="25" transform="translate(9 13)" fill="#f87b62" opacity="0.4"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="30" cy="30" r="30" transform="translate(4 1)" fill="url(#linear-gradient)"/>
+    <g id="upload_icon" data-name="upload icon" transform="translate(22.741 18.732)">
+      <g id="Group_3153" data-name="Group 3153" transform="translate(0 12.952)">
+        <g id="Group_3152" data-name="Group 3152" transform="translate(0 0)">
+          <g id="Group_3151" data-name="Group 3151">
+            <path id="Path_7032" data-name="Path 7032" d="M289.975,2430.593v5.034a2.972,2.972,0,0,1-2.969,2.969H270.426a2.972,2.972,0,0,1-2.969-2.969v-5.034a1.277,1.277,0,0,1,2.554,0v5.034a.415.415,0,0,0,.414.415h16.581a.415.415,0,0,0,.414-.415v-5.034a1.277,1.277,0,0,1,2.554,0Z" transform="translate(-267.457 -2429.316)" fill="#fcfcfc"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_3156" data-name="Group 3156" transform="translate(5.921)">
+        <g id="Group_3155" data-name="Group 3155" transform="translate(0 0)">
+          <g id="Group_3154" data-name="Group 3154">
+            <path id="Path_7033" data-name="Path 7033" d="M332.648,2315.579a1.282,1.282,0,0,1-1.807,0l-1.879-1.88V2325a1.278,1.278,0,0,1-2.555,0v-11.3l-1.879,1.88a1.278,1.278,0,0,1-2.181-.9,1.268,1.268,0,0,1,.374-.9l4.222-4.222a1.05,1.05,0,0,1,1.483,0l4.222,4.222A1.279,1.279,0,0,1,332.648,2315.579Z" transform="translate(-322.347 -2309.244)" fill="#fcfcfc"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
